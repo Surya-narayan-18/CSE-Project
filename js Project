@@ -1,0 +1,10 @@
+document.querySelectorAll('.car-item button').forEach(button => {
+    button.addEventListener('click', () => {
+        alert('You have purchased this item!');
+    });
+});
+// Example to handle form submission (optional)
+document.querySelector('.contact-form form').addEventListener('submit', function(event) {
+    event.preventDefault();  // Prevent form submission to keep it simple for now
+    alert('Form submitted successfully!');
+});
