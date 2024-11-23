@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Cars - CarBazaar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">CarBazaar</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="buy-cars.html">Buy Cars</a></li>
+                <li><a href="sell-cars.html">Sell Cars</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="filters">
+        <h2>Filter Cars</h2>
+        <form>
+            <label for="brand">Brand:</label>
+            <select id="brand" name="brand">
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+                <option value="bmw">BMW</option>
+                <!-- Add more brands -->
+            </select>
+
+            <label for="price">Price Range:</label>
+            <input type="range" id="price" name="price" min="1000" max="50000">
+
+            <label for="year">Year:</label>
+            <select id="year" name="year">
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <!-- Add more years -->
+            </select>
+
+            <button type="submit">Apply Filters</button>
+        </form>
+    </section>
+
+    <section class="car-listings">
+        <h2>Available Cars</h2>
+        <div class="car-list">
+            <div class="car-item">
+                <img src="./images/corolla2018.jpg" alt="Toyota Corolla">
+                <h3>Toyota Corolla 2018</h3>
+                <p>$12,000</p>
+                <button onclick="alert('You have purchased this item!')">Buy Now</button>
+            </div>
+            <div class="car-item">
+                <img src="./images/civic2019.jpg" alt="Honda Civic">
+                <h3>Honda Civic 2019</h3>
+                <p>$14,500</p>
+                <button onclick="alert('You have purchased this item!')">Buy Now</button>
+            </div>
+            <div class="car-item">
+                <img src="./images/FordFocus2020.jpg" alt="Ford Focus">
+                <h3>Ford Focus 2020</h3>
+                <p>$13,000</p>
+                <button onclick="alert('You have purchased this item!')">Buy Now</button>
+            </div>
+            <div class="car-item">
+                <img src="./images/HyundaiElantra2021.jpg" alt="Hyundai Elantra">
+                <h3>Hyundai Elantra 2021</h3>
+                <p>$16,000</p>
+                <button onclick="alert('You have purchased this item!')">Buy Now</button>
+            </div>
+            <div class="car-item">
+                <img src="./images/BMW3Series2017.jpg" alt="BMW 3 Series">
+                <h3>BMW 3 Series 2017</h3>
+                <p>$25,000</p>
+                <button onclick="alert('You have purchased this item!')">Buy Now</button>
+            </div>
+            <div class="car-item">
+                <img src="./images/Mercedes-Benz C-Class 2016.jpg" alt="Mercedes-Benz C-Class">
+                <h3>Mercedes-Benz C-Class 2016</h3>
+                <p>$28,000</p>
+                <button onclick="alert('You have purchased this item!')">Buy Now</button>
+            </div>
+            <div class="car-item">
+                <img src="./images/Nissan Altima 2018.jpg" alt="Nissan Altima">
+                <h3>Nissan Altima 2018</h3>
+                <p>$10,500</p>
+                <button onclick="alert('You have purchased this item!')">Buy Now</button>
+            </div>
+            <div class="car-item">
+                <img src="./images/Chevrolet Malibu 2019.jpg" alt="Chevrolet Malibu">
+                <h3>Chevrolet Malibu 2019</h3>
+                <p>$13,500</p>
+                <button onclick="alert('You have purchased this item!')">Buy Now</button>
+            </div>
+            <div class="car-item">
+                <img src="./images/tesla.jpeg" alt="Tesla Model 3">
+                <h3>Tesla Model 3 2020</h3>
+                <p>$35,000</p>
+                <button onclick="alert('You have purchased this item!')">Buy Now</button>
+            </div>
+            <div class="car-item">
+                <img src="./images/Kia Optima 2018.jpg" alt="Kia Optima">
+                <h3>Kia Optima 2018</h3>
+                <p>$11,000</p>
+                <button onclick="alert('You have purchased this item!')">Buy Now</button>
+            </div>
+                    
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CarBazaar | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
