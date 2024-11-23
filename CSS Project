@@ -1,0 +1,66 @@
+/* About Us Page Specific Styles */
+.about-container {
+    padding: 100px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: 40px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about-container .intro {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 50px;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.about-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-box h2 {
+    font-size: 22px;
+    color: #ff5722;
+    margin-bottom: 15px;
+}
+
+.about-box p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Header and Footer Adjustments */
+header nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #ff5722;
+}
+
+.about-container {
+    padding-top: 80px; /* Adjust for fixed header */
+}
